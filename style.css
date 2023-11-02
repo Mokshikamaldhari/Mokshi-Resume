@@ -1,0 +1,193 @@
+/* Your existing CSS styles here */
+
+/* Style for blockquote (quote) */
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+  }
+  
+  /* Style for sidebar */
+  .sidebar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.2em;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 5px 0;
+  }
+  
+  /* Style for incident stories and FAQs (placeholders) */
+  .incidents, .faq {
+    margin: 20px 0;
+  }
+  
+  .incidents h2, .faq h2 {
+    font-size: 1.5em;
+    color: black;
+  }
+  
+  /* Additional CSS styles as needed */
+  /* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background: black ;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Main content styles */
+  main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Feature section styles */
+  .featured {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .featured h2 {
+    background-color: black;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  /* Incidents and FAQ section styles */
+  .incidents, .faq {
+    margin: 20px 0;
+  }
+  
+  .incidents h2, .faq h2 {
+    font-size: 1.8em;
+    color: black;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    width: 20%;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.5em;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 5px 0;
+  }
+  
+  /* Contact form styles */
+  .contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .contact-form button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: black;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
